@@ -21,11 +21,12 @@ for (var loopTracker = 0; loopTracker < loopCount; loopTracker += 1) {
   
   // Add the band names into the correct <div>
   currentBand = bands[loopTracker];
-  console.log (currentBand)
-  bandElement.innerHTML += `<div>${currentBand}</div> ` 
+  console.log ("currentBand", currentBand);
+  bandElement.innerHTML += `<div class="red">${currentBand}</div> ` 
   
-  // Add the veggie names into the correct <div>
+  
+// Add the veggie names into the correct <div>
   currentVeggie = vegetables[loopTracker];
   console.log (currentVeggie)
-   veggieElement.innerHTML += `<div>${currentVeggie}</div> ` 
+   veggieElement.innerHTML += `<div class="blue">${currentVeggie}</div> ` 
 }
